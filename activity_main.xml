@@ -17,12 +17,14 @@
         android:id="@+id/btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enviar"/>
+        android:text="Enviar"
+        android:layout_below="@id/et"/>
+
     <TextView
         android:id="@+id/tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/btn"
         android:text="Numero"
-        android:textSize="20sp"/>
-
+        android:textSize="20sp" />
 </RelativeLayout>
